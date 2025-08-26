@@ -26,7 +26,7 @@ def make_consumer():
         auto_offset_reset='earliest',
         enable_auto_commit=True,       
         group_id='my_consumer_group_3',
-        consumer_timeout_ms=3_000
+        consumer_timeout_ms=11_000
     )
 
     return consumer
